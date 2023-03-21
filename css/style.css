@@ -1,0 +1,48 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+.content {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+/* Header styling - structure */
+header {
+  display: flex;
+  align-items: center;
+}
+nav {
+  flex: 3;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  flex: 1;
+}
+/******************************************
+/* LAYOUT
+  box-sizing: border-box;
+}
+.content {
+  max-width: 950px;
+  margin: 0 auto;
+}
+       
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
