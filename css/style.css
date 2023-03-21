@@ -30,6 +30,26 @@ header nav ul {
 nav li {
   flex: 1;
 }
+.foto {
+  width: 250px;
+}
+
+.foto-portrait {
+  width: 250px;
+  height: 187.5px; 
+  overflow: none;
+}
+
+.foto-portrait img.foto {
+  
+ object-fit:cover;
+  height: 100%;
+  object-position: top;
+  /* object-fit: cover;  */
+}
+
+
+
 /******************************************
 /* LAYOUT
   box-sizing: border-box;
