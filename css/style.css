@@ -50,11 +50,27 @@ nav li a {
   color: white;
 }
 .foto {
-  width: 250px;
+  /*width: 250px;*/
+  width: 320px;
+  height: 100%;
+  object-fit: cover;
   border: 5px solid blue;
   /*height: 240px*/
 }
 
+.bird-house-kids {
+  object-position: center -50px;
+}
+
+.foto-div {
+  width: 320;
+  height: 240px;
+  overflow: none;
+}
+.next-div {
+  display: flex;
+  gap: 5px;
+}
 .foto-portrait {
   /*width: 250px;
   height: 187.5px; */
