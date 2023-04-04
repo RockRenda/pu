@@ -17,34 +17,65 @@ a {
 /* Header styling - structure */
 header {
   display: flex;
-  align-items: center;
+}
+
+.backgroundimage {
+  width: 100%;
+  background-image: url("../SWS/img_knots1.jpg");
+  height: 300px;
+ border: 5px solid blue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -100px;
+
+}
+.logo {
+  border 2px solid royal blue;
 }
 nav {
   flex: 3;
 }
 header nav ul {
   display: flex;
-  list-style: none;
+   list-style: none;  
+   justify-content: flex-end; 
+   background: royalblue; 
+  
 }
 
-nav li {
-  flex: 1;
+nav li a {
+  /* flex: 1; */
+  padding: 0 15px;
+  align-content: center;
+  color: white;
 }
 .foto {
   width: 250px;
+  border: 5px solid blue;
+  /*height: 240px*/
 }
 
 .foto-portrait {
+  /*width: 250px;
+  height: 187.5px; */
+  width: 320;
+  height: 240px;
+  overflow: none;
+  border: 5px solid blue;
+
+}
+
+/* .foto-big {
   width: 250px;
   height: 187.5px; 
-  overflow: none;
-}
+  overflow: none; */
 
 .foto-portrait img.foto {
   
  object-fit:cover;
   height: 100%;
   object-position: top;
+  border: 5px solid blue;
   /* object-fit: cover;  */
 }
 
